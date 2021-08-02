@@ -1,21 +1,95 @@
-h3{
+.violeta p {
     color: rgb(123, 56, 215);
     background-color: rgb(221, 215, 215);
-    font-size:2em;
-    padding-left: 1em;
+    border-radius:  40px  0px ; /*todos los bordes son iguales*/
+    box-shadow: 10px 10px 30px rgb(49, 46, 46);
+    font-size:3em;
+    font-family: 'Style Script', cursive;
+    margin-bottom: 50px;
+    text-align: center;
+
 }
+
+.violeta :hover{
+    color: rgb(221, 215, 215);
+    background-color: rgb(123, 56, 215);
+    font-size:3.5em;
+    font-family: 'Style Script', cursive;
+   
+}
+
 
 h5{
     color: rgb(255, 255, 255);
     background-color: rgb(123, 56, 215);
     font-size:1em;
     font-style: oblique;
-    font-family: sans-serif;
+    font-family: 'Gowun Batang', serif;
     
+}
+/*le otorga el color azul al link*/
+a:link {
+    color: blue }
+
+.pelis p{
+    column-count: 2;
+   
+}
+.azul {
+    font-size: 30px;
+   
 }
 
 body{
-    margin: 3em ;
-    padding: 3em;
-    border-left: 1em solid black 
+    /*margin-top: 1em  ;*/
+    font-size: 15px;
+    padding-left: 2em;
+    border-left: 1em solid black ;
+    font-family: 'Gowun Batang', serif;
 }
+
+.gris {
+    background-color: rgb(235,235,235);
+    padding: 20px ;
+    margin: 20px;
+  
+}
+
+
+.rosa p{
+    background-color:  rgb(243, 206, 222);
+    text-align:center;
+    align-items: center;
+    padding: 10px   ;
+    font-size: 20px;
+    font-family: 'Gowun Batang', serif;
+    color:rgb(34, 31, 31) ;
+    border-radius:  20px  0px ; /*todos los bordes son iguales*/
+    box-shadow: 10px 10px 40px rgb(49, 46, 46);
+    margin: 20px   /*deja margenes por fuera de la caja*/
+}
+.rosa :hover {
+    background-color:  rgb(235, 222, 222);
+    font-size: 20px;
+    color:rgb(123, 56, 215);
+    border-style: solid;
+  
+}
+
+
+.pelis i{
+    color:rgba(235,245,0);
+   padding-left: 15px;
+   padding-right: 20px;
+  
+}
+
+.imagen img{
+  
+    display: block;
+    margin: auto; 
+    height: 30%;
+    font-weight: auto;
+   
+}
+
