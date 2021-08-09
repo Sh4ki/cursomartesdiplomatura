@@ -30,6 +30,9 @@ h5{
 /*le otorga el color azul al link*/
 a:link {
     color: blue }
+a::before{
+    content:"✎"
+}
 
 .pelis p{
     column-count: 2;
@@ -84,13 +87,17 @@ body{
   
 }
 
-.imagen img{
+.imagen {
   
    /* display: block;
     margin: auto; */
     height: 30%;
     font-weight: auto;
-    text-align: center;
+   text-align: center;
    
 }
 
+
+header{
+    background: linear-gradient(to bottom, blue, white);
+}
