@@ -3,7 +3,7 @@
     background-color: white;
 	display:flex;
 	
-	text-align: center;
+	/*text-align: center;*/ /*no centra de la forma que necesito*/
 	border-style: solid ;
     justify-content:space-between ;
    
@@ -16,7 +16,9 @@
 	margin: 0px;
 	font-size: 20px;
 	color:white;
-	
+	display:flex;
+	justify-content:center;  /*centra en eje x*/
+	align-items: center; /*centra en eje y*/
 }
 
 .caja2{
@@ -26,6 +28,9 @@
 	margin: 0px;
 	font-size: 20px;
 	color:white;
+	display:flex;
+	justify-content:center;  /*centra en eje x*/
+	align-items: center; /*centra en eje y*/
 
 }
 
@@ -36,5 +41,9 @@
 	margin: 0px;
 	font-size: 20px;
 	color:white;
+	display:flex;
+	justify-content:center;  /*centra en eje x*/
+	align-items: center; /*centra en eje y*/
 	
 }
+
