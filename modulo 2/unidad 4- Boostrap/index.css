@@ -1,0 +1,30 @@
+
+.nav-item {
+
+background-color: #FFFFFF;
+font-size: 18px;
+border-color:honeydew;
+border-left: honeydew;
+font-family: Calibri;
+}
+
+.nav-item :hover{
+
+  background-color: #16022B;
+  font-size: 21px;
+ 
+ 
+}
+.nav-item a{
+
+    color: #7600D7;
+   
+  }
+
+
+.nav-item a:hover{
+
+    color: #D7116A;
+   
+  }
+
