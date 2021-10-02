@@ -1,0 +1,33 @@
+.holder{
+    width: 960px;
+    margin: 0 auto;  /*hace que quede centrado*/
+}
+.columnas{
+     overflow: hidden;  /*oculta lo que el contenedor no puede contener, todo el texto que sobresalga de los div
+     que estan dentro de "columnas"*/
+}
+.left{
+
+    float: left;
+}
+.right{
+
+    float: right;
+}
+
+.descrip ,.imgContacto{
+    box-sizing: border-box;
+    
+}
+
+.imgContacto{
+    width: 35%;  
+    padding-right: 2em;
+}
+
+.descrip{
+    width: 65%;
+    text-align: center;
+    padding: 1em; /*el left y right ambos van a tener un espaciado de 1em respecto del div 
+    que los contiene*/
+}
