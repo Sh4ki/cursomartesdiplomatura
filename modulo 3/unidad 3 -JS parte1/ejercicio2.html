@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        // Ejericio 2
+
+        // Crear el código que reciba
+        //  como parámetro un array de números y devuelva el mayor.
+
+        var vector =[];
+        var j = 0;
+        vector[0] = prompt('Ingrese un numero, (0) para salir:', '');
+        
+       
+        document.write(vector[j]);
+        var max= vector[0];
+        var num=parseInt(max);
+       
+        document.write('<br>');
+        while (num!=0) {
+            
+            j=j+1;
+           
+            vector[j] = prompt('Ingrese un numero, (0) para salir:', '');
+            document.write(vector[j]);
+             document.write('<br>');
+           
+            var num= parseInt (vector[j] );
+            var maximo=parseInt(max);
+            if ((num > maximo) ){
+               
+               
+                    max=vector[j];
+                   
+            }
+           
+        }
+
+        document.write('El mayor es: '+ maximo);
+
+
+    </script>
+
+</body>
+
+</html>
