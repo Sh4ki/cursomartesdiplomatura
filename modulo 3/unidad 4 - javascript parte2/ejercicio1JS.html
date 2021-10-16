@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ejercicio1.css">
+</head>
+
+<body>
+
+    <div class="contenedor" style="display:flex ; cursor: pointer;">
+        <div class='amarillo' onclick="cambiarFondo('yellow')"></div>
+        <div class='verde' onclick="cambiarFondo('green')"></div>
+        <div class='azul' onclick="cambiarFondo('blue')"></div>
+
+
+    </div>
+
+    <script>
+        function cambiarFondo(color) {
+            document.querySelector('body').style.background = color;
+        }
+    </script>
+
+
+    <!-- //     function cambiarFondo(color) {
+
+    //         if (color == 'amarillo') {
+    //             document.querySelector('body').style.backgroundcolor = 'yellow';
+    //         }
+    //         else if (color == 'verde') {
+    //             document.querySelector('body').style.backgroundcolor = 'green';
+    //         }
+    //         else if (color =='azul' ) {
+    //             document.querySelector('body').style.backgroundcolor = 'blue';
+    //         }
+
+    //     }
+    -->
+
+
+
+</body>
+
+</html>
