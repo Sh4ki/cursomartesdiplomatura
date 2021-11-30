@@ -1,0 +1,95 @@
+.holder{
+    width: 960px;
+    margin: 0 auto;  /*hace que quede centrado*/
+}
+.columnas{
+     overflow: hidden;  /*oculta lo que el contenedor no puede contener, todo el texto que sobresalga de los div
+     que estan dentro de "columnas"*/
+}
+.left{
+
+    float: left;
+}
+.right{
+
+    float: right;
+}
+
+.descrip ,.imgContacto{
+    box-sizing: border-box;
+    
+}
+
+.imgContacto{
+    width: 35%;  
+    padding-right: 2em;
+}
+
+.descrip{
+    width: 65%;
+    text-align: center;
+    padding: 1em; /*el left y right ambos van a tener un espaciado de 1em respecto del div 
+    que los contiene*/
+}
+
+
+.personas{    /*CLASE PERSONAS  */
+    overflow: hidden;
+}
+
+.persona{
+    width :18%;
+    border: 1px solid gray;
+    border-radius: 0.25em; /*genera una imagen redondeada*/
+    float: left;
+    margin-left: 2.25%;
+    box-sizing: border-box;
+}
+
+.persona{
+    text-align: center;
+   
+}
+
+.persona img{
+border-radius: 50%;
+box-shadow:  0 0 5px rgba (0,0,0,0.5);
+margin: 0.8em 0 1em;
+max-width: 70%;
+
+}
+
+.persona h5, .persona h6{
+    text-align: center;
+    font-weight: normal;
+    color: #2e64a1;
+    margin:0;
+}
+
+.persona h5{    /*CLASE PERSONA  ETIQUETA*/
+font-size: 0.9em;
+}
+.persona p{
+
+    font-size: 0.7em;
+}
+
+.persona :first-child{
+margin-left:0;
+}
+
+.staff{
+    margin-top: 50px;
+    /* width: 100%; */
+    /* height: 300px; */
+}
+
+
+.holder{
+    width: 800px;
+   
+    margin: 0 auto;
+    background-color: white;
+    text-align:center;
+  }
+  
